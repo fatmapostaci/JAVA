@@ -1,0 +1,5 @@
+package learnJava.src.dersler.gun47.TEKRAREDILECEK.enum02;
+
+public enum Roles {
+    ADMIN, CUSTOMER
+}

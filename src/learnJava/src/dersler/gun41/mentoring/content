@@ -1,0 +1,28 @@
+Uygulama Senaryosu: Araç Kiralama Sistemi
+Hedef:
+Bu proje, öğrencilerin interface, abstraction, encapsulation ve inheritance gibi OOP kavramlarını uygulamalı olarak öğrenmelerini sağlayacak.
+Senaryo:
+Bir araç kiralama şirketi için bir sistem tasarlıyorsunuz.
+Sistemde araçların farklı türleri (binek araç, ticari araç) bulunuyor ve her araç türü farklı özelliklere sahip.
+Müşteriler, araçları kiralayabiliyor ve ödedikleri toplam ücreti görebiliyor.
+Sistem Gereksinimleri:
+--> Arac:
+Tüm araçlar için ortak özellikleri ve davranışları tanımlayan bir abstract sınıf.
+--> Ortak özellikler:
+(encapsulation ile korunur).
+Plaka
+Model.
+Günlük kira bedeli.
+--> Ortak davranışlar:
+Aracı kirala (toplam ücreti hesaplar).
+Araç bilgilerini göster.
+--> Araç Türleri (Binek ve Ticari):
+Binek Araç: Ek özellik: Maksimum yolcu kapasitesi.
+Ticari Araç: Ek özellik: Taşıma kapasitesi (kg).
+--> Kiralama Hizmeti:
+Bir interface kullanarak tüm araçların kirala() metodunu zorunlu hale getirin.
+--> Main Sınıfı:
+Collapse
+
+
+

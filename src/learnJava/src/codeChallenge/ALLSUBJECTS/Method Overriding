@@ -1,0 +1,19 @@
+Soru 1: Aşağıdaki sınıfları oluşturun:
+
+BaseClass: display() metodu "BaseClass metodu çağrıldı." yazdırsın.
+
+SubClass: display() metodunu override ederek "SubClass metodu çağrıldı." yazdırsın.
+
+Main Class: BaseClass referansı kullanarak SubClass nesnesi oluşturun ve display() metodunu çağırın.
+
+Soru 2: Bir Shape sınıfı oluşturun ve draw() metodunu override eden Circle ve Rectangle sınıflarını yazın.
+
+Soru 3: Bir bankacılık sistemi için:
+
+Bank sınıfı: getInterestRate() metodu dönen faiz oranı 5 olsun.
+
+HalkBank sınıfı: Override ederek faiz oranını 7 yapın.
+
+ZiraatBank sınıfı: Override ederek faiz oranını 6 yapın.
+
+Main metodunda bu bankaların faiz ora nlarını yazdırın.

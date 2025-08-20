@@ -1,0 +1,16 @@
+Görev 1: Bir metod yazın ve bu metod verilen sayıları çarparak sonucu döndürsün.
+
+Görev 2: Bir metod yazın, metod verilen isimleri alarak bunları virgülle ayrılmış bir string olarak döndürsün.
+
+Görev 3: Bir metod yazın ve bu metod değişken sayıda argüman alarak en büyük sayıyı bulsun.
+
+Görev 4: Bir metod yazın ve bu metod öğrenci isimleri ile notlarını alsın ve ekrana şu şekilde yazdırsın:
+
+Ahmet: 90
+Ayşe: 85
+
+Kullanım:
+
+printStudentGrades("Ahmet", 90, "Ayşe", 85);
+
+(Son soru iiçin ipucu bütün data türlerinin atası Object Class tır :))

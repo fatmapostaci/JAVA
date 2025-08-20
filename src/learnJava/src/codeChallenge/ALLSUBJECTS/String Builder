@@ -1,0 +1,43 @@
+Soru 1: append() Kullanımı
+
+Bir StringBuilder nesnesi oluşturun ve içine "Merhaba" metnini ekleyin.
+
+Sonuna " Dünya" metnini ekleyin.
+
+Sonucu ekrana yazdırın.
+
+Soru 2: insert() Kullanımı
+
+Bir StringBuilder nesnesi oluşturun ve içine "Java Programlama" metnini ekleyin.
+
+
+
+konuma "Dili " metnini ekleyin.
+
+Sonucu ekrana yazdırın.
+
+Soru 3: replace() Kullanımı
+
+Bir StringBuilder nesnesi oluşturun ve içine "Merhaba Dünya" metnini ekleyin.
+
+İlk 7 karakteri "Hello" ile değiştirin.
+
+Sonucu ekrana yazdırın.
+
+Soru 4: delete() Kullanımı
+
+Bir StringBuilder nesnesi oluşturun ve içine "Java Öğreniyorum" metnini ekleyin.
+
+
+
+ve 13. karakterler arasını silin.
+
+Sonucu ekrana yazdırın.
+
+Soru 5: reverse() Kullanımı
+
+Bir StringBuilder nesnesi oluşturun ve içine "Kodlama" metnini ekleyin.
+
+Metni ters çevirin.
+
+Sonucu ekrana yazdırın.

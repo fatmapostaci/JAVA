@@ -1,0 +1,33 @@
+Görev 1: Kendi Sınıfınızı Oluşturun
+
+Person adında bir sınıf oluşturun.
+
+name (String) ve age (int) alanlarını tanımlayın.
+
+Alanlara erişmek için getter ve setter metodları yazın.
+
+age için negatif değerlerin kabul edilmemesini sağlayın.
+
+Görev 2: Kullanım
+
+Bir Person nesnesi oluşturun ve:
+
+Adını "Ahmet" olarak ayarlayın.
+
+Yaşını 25 olarak ayarlayın.
+
+Negatif bir yaş değeri vererek kontrol sağlayın.
+
+Bilgileri ekrana yazdırın.
+
+Görev : 3
+
+Bir BankAccount sınıfı oluşturun.
+
+accountNumber (String) ve balance (double) alanlarını tanımlayın.
+
+Getter ve Setter metodlarını yazın.
+
+balance değerinin negatif olmasını engelleyin.
+
+Hesaba para yatırmak ve çekmek için metodlar ekleyin.

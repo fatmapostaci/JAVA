@@ -1,0 +1,15 @@
+Soru 1: Bir sayı pozitif, negatif veya sıfır mı? if kullanarak kontrol edin.
+
+Soru 2: Bir öğrencinin notuna göre harf notu hesaplayın (A, B, C, D, F). switch kullanarak çözün.
+
+Soru 3: Bir kullanıcının girdiği gün numarasına (1-7) karşılık gelen gün adını yazdıran bir program yazın. Hem if hem de switch kullanarak iki çözüm yapın.
+
+Soru 4: Bir yılın artık yıl olup olmadığını kontrol edin (if kullanarak).
+
+Soru 5: Kullanıcıdan bir mevsim adı alın ve o mevsime uygun bir aktivite önerin (switch kullanarak).
+
+
+Proje Görevi
+
+Bir hesap makinesi programı yazın. Kullanıcıdan iki sayı ve bir işlem türü (+, -, *, /) 
+alarak sonucu hesaplayın. Hem if hem de switch kullanarak iki ayrı çözüm yapın.

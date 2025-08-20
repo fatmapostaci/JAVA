@@ -1,0 +1,39 @@
+Spor Salonu Üyelik Sistemi
+Adım 1: Member Sınıfını Tasarlayın
+
+Aşağıdaki fields tanımlanacak:
+
+String name: Üye adı.
+
+String surname: Üye soyadı.
+
+String membershipType: Üye türü (“Standart”, “Premium”, “VIP”).
+
+double monthlyFee: Aylık üret.
+
+int monthlyUsageLimit: Aylık kullanım hakkı.
+
+int remainingUsage: Kullanıcının kalan hakkı.
+
+Constructor:
+
+Kullanıcı bilgilerini alır ve üyelik türünü kontrol ederek uygun
+üret ve hak tanımlarını yapar.
+
+Metotlar:
+
+use(): Kullanım hakkını 1 azaltır, eğer kalan hak yoksa uyarı verir.
+
+printDetails(): Üye bilgilerini ve kalan hakkı yazdırır.
+
+Adım 2: Main Metodu
+
+Kullanıcıdan üye bilgilerini alarak bir Member nesnesi oluşturun.
+
+Kullanıcıya bir menü sunarak şu işlemleri yaptırın:
+
+Kullanım yap: Kullanıcının kalan hakkını azaltın.
+
+Üyelik detaylarını göster: Kullanıcı bilgilerini ve kalan hakkı görüntüleyin.
+
+Çıkış yap: Programdan çıkın.

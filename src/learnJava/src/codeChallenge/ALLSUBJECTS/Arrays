@@ -1,0 +1,92 @@
+1. Temel Array Tanımlama ve Erişim
+
+Bir integer dizisi tanımlayın ve 5 elemanla doldurun.
+
+Dizinin ilk ve son elemanını ekrana yazdırın.
+
+Ornek:
+
+int[] sayilar = {10, 20, 30, 40, 50};
+System.out.println(sayilar[0]); // İlk eleman
+System.out.println(sayilar[sayilar.length - 1]); // Son eleman
+
+Soru:
+
+Bir String dizisi oluşturun ve 3 farklı şehir adı ekleyin.
+
+İkinci elemanı ekrana yazdırın.
+
+2. Array Döngüleri
+
+Bir dizi oluşturun ve döngü kullanarak tüm elemanlarını ekrana yazdırın.
+
+Ornek:
+
+int[] sayilar = {1, 2, 3, 4};
+for (int i = 0; i < sayilar.length; i++) {
+    System.out.println(sayilar[i]);
+}
+
+Soru:
+
+Bir double dizisi oluşturun ve 4 değer ekleyin.
+
+for-each döngüsü kullanarak elemanları yazdırın.
+
+3. Array Islemleri
+
+Bir integer dizisindeki en büyük ve en küçük elemanı bulun.
+
+Ornek:
+
+int[] sayilar = {5, 8, 2, 10};
+int enBuyuk = sayilar[0];
+for (int sayi : sayilar) {
+    if (sayi > enBuyuk) {
+        enBuyuk = sayi;
+    }
+}
+System.out.println("En buyuk: " + enBuyuk);
+
+Soru:
+
+Bir int dizisi oluşturun ve elemanların toplamını hesaplayın.
+
+4. Çok Boyutlu Diziler
+
+2x2 boyutunda bir matris oluşturun ve elemanlarını ekrana yazdırın.
+
+Ornek:
+
+int[][] matris = {{1, 2}, {3, 4}};
+for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 2; j++) {
+        System.out.print(matris[i][j] + " ");
+    }
+    System.out.println();
+}
+
+Soru:
+
+3x2 boyutunda bir matris oluşturun ve her elemanını for-each döngüsü ile yazdırın.
+
+5. ArrayList Kullanımı (Ekstra)
+
+Bir ArrayList oluşturun ve 3 eleman ekleyin.
+
+İlk elemanı silin ve kalan elemanları yazdırın.
+
+Ornek:
+
+ArrayList<String> liste = new ArrayList<>();
+liste.add("Elma");
+liste.add("Armut");
+liste.add("Muz");
+liste.remove(0);
+System.out.println(liste);
+
+Soru:
+
+Bir ArrayList oluşturun ve 5 sayı ekleyin.
+
+En büyük elemanı bulun.

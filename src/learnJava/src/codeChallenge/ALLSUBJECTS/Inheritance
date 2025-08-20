@@ -1,0 +1,17 @@
+Görev 1: Sınıf Hiyerarşisi Oluşturun
+
+Vehicle adında bir üst sınıf oluşturun.
+
+Car ve Bike adında iki alt sınıf oluşturun.
+
+Vehicle sınıfında start() ve stop() metodları tanımlayın.
+
+Alt sınıflar bu metodları miras alsın ve kendilerine özgü metodlar eklesin.
+
+Görev 2: Test Sınıfı
+
+Bir Main sınıfı oluşturun.
+
+Car ve Bike nesneleri oluşturun.
+
+Her nesne üzerinden start(), stop() ve kendilerine özgü metodları çağırın.

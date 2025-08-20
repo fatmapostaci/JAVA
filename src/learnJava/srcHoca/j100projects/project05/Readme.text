@@ -1,0 +1,115 @@
+package j100projects.project05;# E-Ticaret Uygulaması Simülasyonu
+
+## Proje Açıklaması
+Bu proje, Java programlama dilinin temel özelliklerini uygulamalı olarak öğrenmek için tasarlanmıştır. Üç kişilik gruplar, bir e-ticaret uygulaması simülasyonu geliştirecek. Proje; OOP kavramları, enum, exception handling ve collections gibi temel konuları içermektedir.
+
+---
+
+## Proje Adımları
+
+### 1. Oturum (40 Dakika) - Proje Planlama ve Temel Yapının Oluşturulması
+
+**Amaç:**
+Sınıfların tasarlanması, görev dağılımı ve temel iskeletin oluşturulması.
+
+#### Görevler:
+- **Kişi 1 (Sistem Tasarımcısı):**
+  - Ana sınıfları ve ilişkilerini belirler (`Urun`, `Musteri`, `Siparis`).
+  - UML veya basit bir diyagram çizer.
+  - Sınıf yapılarının iskelet kodlarını oluşturur.
+
+- **Kişi 2 (Enum ve Sabitler Uzmanı):**
+  - Projede kullanılacak sabitleri ve enumları belirler (ör. `Kategori` ve `Durum`).
+  - Bu enum Readme sabitler için dosyalar oluşturur.
+
+- **Kişi 3 (Veri Yapıları Uzmanı):**
+  - Kullanılacak koleksiyonları belirler (ör. `ArrayList`, `HashMap`).
+  - Ürün ve müşteri listeleri için başlangıç koleksiyonlarını oluşturur.
+
+#### Yapılacaklar:
+- **Ana sınıflar:**
+  - `Urun`: ID, isim, fiyat, kategori (enum), stok miktarı.
+  - `Musteri`: ID, isim, e-posta, alışveriş sepeti.
+  - `Siparis`: Sipariş detayları (müşteri, ürün listesi, toplam fiyat).
+
+- **Enumlar ve sabitler:**
+  - `Kategori`, `Durum` (Ürün durumu).
+
+- **Koleksiyonlar:**
+  - Ürün listesi (`ArrayList<Urun>`).
+  - Müşteri listesi (`ArrayList<Musteri>`).
+
+---
+
+### 2. Oturum (40 Dakika) - İşlevselliklerin Eklenmesi
+
+**Amaç:**
+Sınıflara metotların eklenmesi ve temel iş mantıklarının oluşturulması.
+
+#### Görevler:
+- **Kişi 1 (Sistem Tasarımcısı):**
+  - `Urun` sınıfına metot ekler:
+    - `public void stokAzalt(int miktar)`.
+    - `public boolean stokKontrol()`.
+  - `Musteri` sınıfına metot ekler:
+    - `public void sepeteEkle(Urun urun)`.
+    - `public void sepetiGoster()`.
+
+- **Kişi 2 (Enum ve Sabitler Uzmanı):**
+  - Enum üzerinden kullanıcıdan giriş almayı kolaylaştıracak bir `EnumHelper` sınıfı oluşturur.
+  - Enum değerlerine özel metotlar ekler (ör. kategori adı döndürme).
+
+- **Kişi 3 (Veri Yapıları Uzmanı):**
+  - Ürünleri listeleyen metot:
+    - `public void urunleriListele()`.
+  - Müşteri listesinden müşteri bulma metodu:
+    - `public Musteri musteriBul(String isim)`.
+
+#### Önerilen İşlevsellik:
+- Ürünleri listeleme.
+- Sepete ürün ekleme.
+- Sepetteki ürünleri görüntüleme.
+
+---
+
+### 3. Oturum (40 Dakika) - Hata Yönetimi ve Tamamlama
+
+**Amaç:**
+Exception handling, testler ve projenin sonlandırılması.
+
+#### Görevler:
+- **Kişi 1 (Sistem Tasarımcısı):**
+  - Ürün ekleme sırasında stok kontrolü ekler:
+    - `throw new StokYetersizException("Yeterli stok yok.");`
+  - Alışveriş sepetinden ürün çıkarma metodu ekler.
+
+- **Kişi 2 (Enum ve Sabitler Uzmanı):**
+  - Hataları anlamlı kılmak için exception sınıfları oluşturur:
+    - `StokYetersizException`.
+    - `KategoriBulunamadiException`.
+  - Enumlar ile uyumlu hata mesajları tasarlar.
+
+- **Kişi 3 (Veri Yapıları Uzmanı):**
+  - Uygulamanın giriş noktasını (`main` metodu) yazar:
+    - Müşteri oluşturma.
+    - Ürün ekleme.
+    - Basit alışveriş akışı.
+  - Tüm sınıfların uyumlu çalıştığını kontrol eder.
+
+#### Test Senaryoları:
+- Kullanıcı hatalı bir kategori seçtiğinde doğru hata mesajı alıyor mu?
+- Sepette ürün yoksa uygun mesaj gösteriliyor mu?
+- Stok yetersiz olduğunda exception fırlatılıyor mu?
+
+---
+
+
+
+---
+
+## Notlar
+- Kodlar temiz ve okunabilir olmalıdır.
+- Her oturum sonunda grup ilerlemeyi kontrol etmeli ve eksiklikleri tamamlamalıdır.
+- Yorum satırlarıyla kod açıklamaları yapılmalıdır.
+
+Bu proje, Java diline hakimiyetinizi artırmak ve ekip çalışması yeteneğinizi geliştirmek için mükemmel bir fırsattır. İyi çalışmalar! 😊

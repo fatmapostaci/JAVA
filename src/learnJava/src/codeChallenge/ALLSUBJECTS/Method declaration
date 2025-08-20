@@ -1,0 +1,19 @@
+Soru 1: Basit Metot Oluşturma
+
+Bir metod oluşturun ve bu metod, kendisine parametre olarak gönderilen iki sayıyı toplasın ve sonucu ekrana yazdırsın.
+
+Soru 2: Geri Dönüş Değeri Olan Metot
+
+Bir metod yazın ve bu metod, bir sayının karesini hesaplayarak geri döndürsün.
+
+Soru 3: Parametresiz Metot
+
+Bir metod yazın ve ekrana "Merhaba, dünya!" yazdırsın.
+
+Soru 4: Birden Fazla Parametre
+
+Bir metod oluşturun ve bu metod, üç sayının ortalamasını hesaplasın ve sonucu geri döndürsün.
+
+Soru 5: Karar Yapısı İçeren Metot
+
+Bir metod oluşturun ve bu metod, verilen bir sayının tek mi çift mi olduğunu kontrol ederek sonucu ekrana yazdırsın.

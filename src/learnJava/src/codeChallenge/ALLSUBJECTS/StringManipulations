@@ -1,0 +1,101 @@
+### **Soru 1:**
+
+Aşağıdaki string üzerinde belirtilen metodları kullanarak işlemleri gerçekleştirin:
+
+```
+String text = "  Java String Manipulation Exercise  ";
+
+```
+
+1. Boşlukları baştan ve sondan temizleyin.
+2. Tüm harfleri küçük harfe çevirin.
+3. Tüm harfleri büyük harfe çevirin.
+4. "Manipulation" kelimesini "Processing" ile değiştirin.
+5. String’in uzunluğunu ekrana yazdırın.
+
+### **Soru 2:**
+
+Aşağıdaki string'i kullanarak belirtilen işlemleri gerçekleştirin:
+
+```
+String sentence = "Java is fun, and Java is powerful!";
+
+```
+
+1. İlk geçen "Java" kelimesini "Python" ile değiştirin.
+2. Tüm "Java" kelimelerini "Python" ile değiştirin.
+3. String’in "powerful" kelimesiyle bitip bitmediğini kontrol edin.
+4. String’in içinde "fun" kelimesinin kaçıncı index'te başladığını bulun.
+
+### **Soru 3:**
+
+Aşağıdaki string üzerinde substring kullanarak istenilen bölümleri elde edin:
+
+```
+String code = "WelcomeToJavaProgramming";
+
+```
+
+1. "Welcome" kelimesini ayırın.
+2. "Java" kelimesini ayırın.
+3. "Programming" kelimesini ayırın.
+4. String'in son 5 karakterini yazdırın.
+
+### **Soru 4:**
+
+Aşağıdaki string üzerinde belirtilen kontrolleri gerçekleştirin:
+
+```
+String password = "Secure@123";
+
+```
+
+1. String boş mu?
+2. String "@" sembolünü içeriyor mu?
+3. String sadece sayılardan mı oluşuyor?
+4. String’in uzunluğu 8 karakterden fazla mı?
+
+### **Soru 5:**
+
+Aşağıdaki string’i boşluk karakterlerine göre ayırarak bir dizi oluşturun ve ardından kelimeleri virgülle birleştirerek ekrana yazdırın:
+
+```
+String data = "Apple Banana Cherry Date";
+
+```
+
+**Beklenen Çıktı:** `Apple,Banana,Cherry,Date`
+
+### **Soru 6:**
+
+Bir kullanıcının girdiği e-posta adresini kontrol eden bir program yazın. Program aşağıdaki kuralları kontrol etmelidir:
+
+- E-posta "@" sembolü içermelidir.
+- E-posta ".com" uzantısı ile bitmelidir.
+- Boşluk karakteri içermemelidir.
+
+**Örnek Çıktı:**
+
+```
+Geçerli e-posta adresi!
+
+```
+
+### **Soru 7:**
+
+Bir cümledeki tüm kelimeleri ters çeviren bir Java programı yazın.
+
+**Girdi:**
+
+```
+Java is fun
+
+```
+
+**Çıktı:**
+
+```
+
+avaJ si nuf
+
+```

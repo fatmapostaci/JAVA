@@ -1,0 +1,4 @@
+
+Ürün adı ='Armut', Ürün Kodu=101, Tartılan Miktar =2.0 kg , Kilo Fiyatı=40.5, Ödenecek Ürün Tutarı =81.0 TL 
+Ürün adı ='Armut', Ürün Kodu=101, Tartılan Miktar =2.0 kg , Kilo Fiyatı=40.5, Ödenecek Ürün Tutarı =81.0 TL 
+Ürün adı ='Armut', Ürün Kodu=101, Tartılan Miktar =2.0 kg , Kilo Fiyatı=40.5, Ödenecek Ürün Tutarı =81.0 TL 

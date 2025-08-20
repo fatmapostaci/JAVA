@@ -1,0 +1,82 @@
+1. ArrayList Oluşturma
+
+Bir ArrayList oluşturun ve aşağıdaki işlemleri gerçekleştirin:
+
+Bir ArrayList oluşturun ve içine 5 farklı şehir ismi ekleyin.
+
+Tüm şehir isimlerini ekrana yazdırın.
+
+Beklenen Çıktı:
+
+[Ankara, İstanbul, İzmir, Bursa, Antalya]
+
+2. Eleman Ekleme ve Çıkarma
+
+Oluşturduğunuz ArrayList'e "Adana" şehrini en başa ekleyin.
+
+"İzmir" şehrini listeden kaldırın.
+
+Son durumu ekrana yazdırın.
+
+Beklenen Çıktı:
+
+[Adana, Ankara, İstanbul, Bursa, Antalya]
+
+3. Eleman Güncelleme
+
+Listedeki 2. sıradaki elemanı "Eskişehir" ile değiştirin.
+
+Güncellenmiş listeyi ekrana yazdırın.
+
+Beklenen Çıktı:
+
+[Adana, Eskişehir, İstanbul, Bursa, Antalya]
+
+4. Döngü ile ArrayList
+
+ArrayList'teki tüm şehir isimlerini bir for döngüsü ile yazdırın.
+
+Beklenen Çıktı:
+
+Adana
+Eskişehir
+İstanbul
+Bursa
+Antalya
+
+5. ArrayList Arama
+
+Kullanıcıdan bir şehir ismi girmesini isteyin.
+
+Girilen şehir ismi ArrayList içinde bulunuyorsa ekrana "Şehir listede var." yazdırın.
+
+Aksi halde "Şehir listede yok." yazdırın.
+
+Örnek Girdi:
+
+Adana
+
+Beklenen Çıktı:
+
+Şehir listede var.
+
+6. ArrayList'i Sıralama
+
+Şehirleri alfabetik olarak sıralayın.
+
+Sıralanmış listeyi yazdırın.
+
+Beklenen Çıktı:
+
+[Adana, Antalya, Bursa, Eskişehir, İstanbul]
+
+7. ArrayList Temizleme
+
+ArrayList'i tamamen temizleyin.
+
+Listenin boş olduğunu kontrol ederek ekrana "Liste boş." yazdırın.
+
+Beklenen Çıktı:
+
+Liste boş.
+

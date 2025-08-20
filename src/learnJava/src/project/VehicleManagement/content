@@ -1,0 +1,66 @@
+/*
+Görev 1: Ana Sınıfı Oluştur
+
+    Vehicle sınıfını oluşturun.
+    Aşağıdaki özellikleri tanımlayın (private):
+    brand (Araç markası)
+    model (Araç modeli)
+    year (Araç üretim yılı)
+        Bu özellikler için getter ve setter metodlarını ekleyin.
+        Vehicle sınıfı için bir constructor tanımlayın.
+        Aşağıdaki iki drive metodunu ekleyerek method overloading kavramını gösterin:
+        Parametresiz drive metodu, aracın sürüldüğünü ekrana yazsın.
+        Parametreli drive(int distance) metodu, aracın belirli bir mesafe sürüldüğünü ekrana yazsın.
+
+Görev 2: Alt Sınıfları Oluştur
+
+    Car (Araba) Sınıfı:
+        Vehicle sınıfından miras alın.
+        Ek bir özellik olarak numberOfDoors (kapı sayısı) ekleyin.
+        Getter ve setter metodlarını ekleyin.
+        Truck (Kamyon) Sınıfı:
+        Vehicle sınıfından miras alın.
+        Ek bir özellik olarak loadCapacity (yük kapasitesi) ekleyin.
+        Getter ve setter metodlarını ekleyin.
+        Motorcycle (Motosiklet) Sınıfı:
+        Vehicle sınıfından miras alın.
+        Ek bir özellik olarak hasSidecar (yan sepet var mı) ekleyin.
+        Getter ve setter metodlarını ekleyin.
+
+Görev 3: Ana Programı Yaz
+
+    main metodu içinde her alt sınıftan birer nesne oluşturun:
+        Bir araba
+        Bir kamyon
+        Bir motosiklet
+        Oluşturulan nesnelerin özelliklerini getter metodları ile alın ve setter metodları ile güncelleyin.
+        Her nesne için drive metodunun iki versiyonunu da çağırarak çalıştırın.
+        Araçlara özel özellikleri (numberOfDoors, loadCapacity, hasSidecar) ekrana yazdırın.
+
+Görev 4: Kodunuzu Test Edin
+
+"Programı derleyin ve çalıştırın.
+"Çıktının aşağıdaki gibi olması bekleniyor:
+"Örnek Çıktı:
+
+Toyota Corolla has 4 doors.
+Toyota Corolla is being driven.
+Ford F-150 is being driven for 150 kilometers.
+Ford can carry 1000.5 kg of load.
+Harley-Davidson has a sidecar: false
+
+ */    /*
+       Encapsulation:
+           Vehicle sınıfında isAvailable gibi bir özellik ekleyerek aracın kiralanabilirlik durumunu yönetin.
+           Getter ve setter metodları ile aracın durumunu değiştirin.
+       Inheritance:
+           Araç türüne göre özel sınıflar (Car, Truck, Motorcycle) oluşturun.
+           Kamyonlar için loadCapacity baz alınarak kiralanma işlemini kontrol edin.
+       Method Overloading:
+           CalculateRent(int days) metodu, aracın belirli gün için kiralanma ücretini hesaplasın.
+           Ücret formülü: baseRate × days.
+       Ek İşlemler:
+           Aracın kullanılabilirliğini kontrol eden bir checkAvailability() metodu.
+           araç geri getirildiğinde durumunu güncelleyen bir returnVehicle() metodu.
+           araç kiralandığında aracın durumunu güncelleyen bir rentVehicle() metodu.
+    */

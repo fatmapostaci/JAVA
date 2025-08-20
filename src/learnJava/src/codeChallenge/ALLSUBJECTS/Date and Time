@@ -1,0 +1,24 @@
+Görev 1: Mevcut tarihi ve saati ekrana yazdıran bir program yazın.
+
+Görev 2: Kullanıcıdan bir tarih girişi alarak, o tarihin haftanın hangi gününe denk geldiğini bulan bir program yazın.
+
+Görev 3: İki tarih arasındaki gün farkını hesaplayan bir metod yazın.
+
+Görev 4: Belirli bir saati 2 saat ileri ve 30 dakika geri alan bir program yazın.
+
+Görev 5: Şu çıktıyı üretecek bir metod yazın:
+
+Bugün: 2024-08-30
+Şu anki saat: 14:45
+Bir hafta sonrası: 2024-09-06
+
+Görev 6: Bir metod yazın ve bu metod şu şekilde çağırıldığında doğru çalışsın:
+
+printMeetingSchedule("2024-09-01", "14:30");
+
+Çıktı:
+
+Toplantı Tarihi: 2024-09-01
+Toplantı Saati: 14:30
+
+

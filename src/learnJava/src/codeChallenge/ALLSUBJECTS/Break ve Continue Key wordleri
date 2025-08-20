@@ -1,0 +1,15 @@
+Soru 1: Bir dongu kullanarak 1'den 10'a kadar sayilari yazdirin. Ancak, 5'e geldiginde donguden cikilsin.
+
+Beklenen Cikti:
+1 2 3 4
+
+Soru 2: 1'den 10'a kadar olan cift sayilari yazdirin, ancak 6 sayisini atlayin.
+
+Beklenen Cikti:
+2 4 8 10
+
+Soru 3: Kullanıcıdan bir sayi girmesini isteyin. Girilen sayi negatifse donguyu kirin, pozitifse bir sonrakine gecin ve yazdirin.
+
+Soru 4: 1'den 20'ye kadar olan sayilari yazdirin. Ancak, 10 ve 15 sayilarini atlayin.
+
+Soru 5: Bir kelime icindeki harfleri dongu kullanarak yazdirin. Ancak, 'a' harfi goruldugunde yazmayin ve bir sonraki harfe gecin.
